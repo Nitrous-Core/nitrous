@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>652</width>
-    <height>599</height>
+    <height>785</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -246,41 +246,18 @@ MultiSend will not be activated unless you have clicked Activate</string>
     </item>
    </layout>
   </widget>
-  <widget class="QScrollArea" name="scrollArea">
+  <widget class="QLabel" name="message">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>200</y>
+     <x>290</x>
+     <y>220</y>
      <width>351</width>
-     <height>211</height>
+     <height>511</height>
     </rect>
    </property>
-   <property name="widgetResizable">
-    <bool>true</bool>
+   <property name="text">
+    <string/>
    </property>
-   <widget class="QWidget" name="scrollAreaWidgetContents">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>349</width>
-      <height>209</height>
-     </rect>
-    </property>
-    <widget class="QLabel" name="message">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>351</width>
-       <height>511</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
   </widget>
  </widget>
  <resources>
